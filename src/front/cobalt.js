@@ -7,6 +7,7 @@ const isOldFirefox = ua.match("firefox/") && ua.split("firefox/")[1].split('.')[
 
 const switchers = {
     "theme": ["auto", "light", "dark"],
+    "language": ["auto", "english", "russian"],
     "vCodec": ["h264", "av1", "vp9"],
     "vQuality": ["720", "max", "2160", "1440", "1080", "480", "360"],
     "aFormat": ["mp3", "best", "ogg", "wav", "opus"],
